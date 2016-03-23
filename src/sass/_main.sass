@@ -1,0 +1,55 @@
+$med: GothaProMed, sans-serif
+.out
+	+box
+	+clr
+	.container
+		width: 1024px
+	.top__box
+		box-shadow: none
+		height: 58px
+		line-height: 58px
+		background-color: #162737
+		.phone
+			span
+				position: relative
+				+GothamPro
+				color: #fff
+				font-size: 17px
+				font-weight: 400	
+				line-height: 55px
+				display: inline-block
+				padding-left: 32px
+				&:before
+					content: ''
+					position: absolute
+					left: 0
+					top: 50%
+					margin-top: -10px
+					width: 20px
+					height: 20px
+					background: url("../img/phone.png") 0 0 no-repeat
+	.header
+		.container
+			height: 100px
+			line-height: 100px
+			.valign-wrapper
+				height: 100px
+				width: 100%
+			nav
+				width: 82%
+				float: right
+				background-color: transparent
+				box-shadow: none
+				height: 100px
+				line-height: 100px
+				li
+					a
+						color: #202020
+						text-transform: uppercase
+						+GothaProMed
+						font-size: 14px
+						font-weight: 500
+						padding: 0 22px
+						&:hover
+							background-color: transparent
+							color: #ff503a
