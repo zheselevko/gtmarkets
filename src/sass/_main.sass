@@ -28,6 +28,68 @@ $med: GothaProMed, sans-serif
 					width: 20px
 					height: 20px
 					background: url("../img/phone.png") 0 0 no-repeat
+		.language
+			select
+				display: block
+				border-radius: 0
+				border: none
+				background-color: #000000
+				padding: 20px 15px
+				height: 58px
+				&:focus
+					outline: none
+				.rus
+					position: relative
+					width: 22px
+					height: 16px
+					display: inline-block
+					background: url("../img/rus.png") 0 0 no-repeat
+		ul
+			li
+				a
+					font-size: 13px
+					font-weight: 500
+					+GothaProMed
+					padding: 0 25px
+			.schet
+				background-image: linear-gradient(to top, #ff4242 0%, #ff6642 100%)
+				padding: 0 25px 0 50px
+				position: relative
+				&:before
+					content: ''
+					position: absolute
+					top: 50%
+					margin-top: -8px
+					left: 25px
+					width: 16px
+					height: 16px
+					background: url("../img/user_male.png") 0 0 no-repeat
+				&:hover
+					background-image: linear-gradient(to top, #2699d6 0%, #3bbbff 100%)
+			.terminal
+				position: relative
+				&:before
+					content: ''
+					position: absolute
+					top: 50%
+					margin-top: -8px
+					left: 0
+					width: 16px
+					height: 15px
+					background: url("../img/vector.png") 0 0 no-repeat
+				&:hover
+					color: #ccff7b
+					&:before
+						display: none
+					&:after
+						content: ''
+						position: absolute
+						top: 50%
+						margin-top: -8px
+						left: 0
+						width: 16px
+						height: 15px
+						background: url("../img/vector_hov.png") 0 0 no-repeat
 	.header
 		.container
 			height: 100px
@@ -53,3 +115,269 @@ $med: GothaProMed, sans-serif
 						&:hover
 							background-color: transparent
 							color: #ff503a
+	.baner
+		width: 100%
+		+box
+		+clr
+		background: url("../img/baner.png") 0 0 no-repeat
+		.inner
+			padding: 50px 111px 41px 70px
+			.h2
+				+GothamProBold
+				font-size: 30px
+				font-weight: 700
+				line-height: 36px
+				text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35)
+				color: white
+				margin-bottom: 45px
+			.l9
+				float: none
+				margin: 0 auto
+				.l4
+					color: white
+					+GothaProMed
+					font-size: 15px
+					font-weight: 500
+					line-height: 21px
+					.image
+						height: 94px
+						margin-bottom: 10px
+					.center-align
+						width: 100%
+			.button
+				width: 304px
+				height: 80px
+				margin: 0 auto
+				background: rgba(0,0,0,0.5)
+				border-radius: 40px
+				a
+					display: inline-block
+					width: 286px
+					height: 62px
+					background-color: black
+					background-image: linear-gradient(to top, #ff4242 0%, #ff6642 100%)
+					border-radius: 31px
+					color: white
+					+GothamProBold
+					font-size: 17px
+					font-weight: 700
+					line-height: 59px
+					margin: 8px auto
+					&:hover
+						background-color: black
+						background-image: linear-gradient(to top, #2699d6 0%, #3bbbff 100%)
+	.categories
+		border-bottom: 1px solid #d9e1f1
+		.row
+			margin-bottom: 0
+			.l3
+				border-left: 1px solid #d9e1f1
+				&:last-child
+					border-right: 1px solid #d9e1f1
+				&:hover
+					background: #f4f6fb
+				.box
+					display: inline-block
+					padding: 23px 10px 15px
+					height: 115px
+					&:hover
+						.content
+							.text
+								.name
+									color: #ff4742
+									text-decoration: underline
+					.content
+						position: relative
+						.text
+							padding-left: 70px
+							.name
+								+GothamProBold
+								font-size: 13px
+								font-weight: 700
+								line-height: 21px
+								color: #000
+							p
+								font-family: "Roboto", sans-serif
+								font-size: 11px
+								font-weight: 400
+								line-height: 17px
+								color: #000
+						[class^="icon-"]
+							position: absolute
+							left: 0
+							top: 5px
+						.icon-calendar
+							left: -5px
+						.icon-corona
+							left: -8px
+						.icon-termin
+							left: -5px
+	.experts
+		width: 100%
+		+box
+		+clr
+		.container
+			padding: 40px 0 4px
+			.row
+				margin-bottom: 0
+			.name
+				color: black
+				+GothamProBold
+				font-size: 24px
+				font-weight: 700
+				line-height: 23px
+			p
+				color: #090909
+				font-family: "Roboto", sans-serif
+				font-size: 13px
+				font-weight: 400
+				line-height: 24px
+			.numb
+				color: #ff4742
+				font-size: 33px
+				font-weight: 300
+				line-height: 23px
+				+GothaProMed
+				margin-bottom: 15px
+			span
+				color: #090909
+				font-family: "Roboto", sans-serif
+				font-size: 13px
+				font-weight: 500
+				line-height: 17px
+			.l4
+				height: 72px
+				margin-bottom: 50px
+	.news
+		background: #f6f6f6
+		+box
+		+clr
+		.slider
+			.indicators
+				top: 40px
+				right: 40px
+				z-index: 2
+				left: auto
+				bottom: auto
+				.indicator-item
+					width: 12px
+					height: 12px
+					border: 2px solid white
+					background-color: transparent
+					margin: 0 3px
+				.indicator-item.active
+					background-color: #ccff7b
+					border: 2px solid transparent
+			.caption
+				top: 40%
+				left: 5%
+				width: 80%
+				h3
+					font-size: 80px
+					+GothamProLight
+					font-weight: 300
+				h5
+					+GothamProBold
+					font-size: 21px
+					font-weight: 700
+					line-height: 30px
+					text-decoration: underline
+		.row
+			margin-bottom: 0
+		.news__list
+			padding: 35px 10px 0 10px
+			.heading
+				color: black
+				+GothamProBold
+				font-size: 24px
+				font-weight: 700
+				line-height: 23px
+				margin-bottom: 35px
+				a
+					color: #007bd9
+					+GothaProMed
+					font-size: 13px
+					font-weight: 500
+					line-height: 32px
+					text-decoration: underline
+					text-transform: uppercase
+					position: relative
+			.list
+				.date
+					color: #585858
+					font-size: 13px
+					line-height: 25px
+					font-family: "Roboto", sans-serif
+					font-weight: 400
+				.name
+					a
+						color: #007bd9
+						font-size: 15px
+						line-height: 25px
+						text-decoration: underline
+						font-family: "Roboto", sans-serif
+						font-weight: 400
+				.preview
+					p
+						color: black
+						font-size: 13px
+						line-height: 21px
+						font-family: "Roboto", sans-serif
+						font-weight: 400
+						margin: 0 auto
+				.row
+					margin-bottom: 30px
+	.webtrader
+		width: 100%
+		background: url("../img/webtrader.png") 0 0 no-repeat
+		+box
+		+clr
+		.container
+			padding: 35px 0 0 0
+			.row
+				margin-bottom: 0
+			.h2
+				font-weight: 400
+				font-size: 26px
+				line-height: 30px
+				+GothamProBold
+				color: #fff
+			p
+				font-size: 15px
+				line-height: 23px
+				color: #fff
+				+GothaProMed
+				font-weight: 400
+			.white
+				color: #363636
+				+GothamProBold
+				font-size: 17px
+				font-weight: 700
+				text-transform: initial
+				height: 58px
+				line-height: 58px
+				padding: 0 1.8rem
+				border-radius: 3px
+				margin-right: 20px
+				&:hover
+					background-color: #ccff7b !important
+			.transparent
+				+GothamProBold
+				font-size: 17px
+				font-weight: 700
+				text-transform: initial
+				height: 58px
+				line-height: 56px
+				padding: 0 1.8rem
+				border: 2px solid white
+				border-radius: 3px
+			.l8
+				img
+					vertical-align: bottom
+			.l4
+				p
+					color: white
+					+GothamPro
+					font-size: 20px
+					font-weight: 400
+					line-height: 25px

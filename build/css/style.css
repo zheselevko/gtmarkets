@@ -1398,7 +1398,7 @@ nav ul a span.badge { position: static; margin-left: 4px; line-height: 0; }
 /* This is needed for some mobile phones to display the Google Icon font properly */
 .material-icons { text-rendering: optimizeLegibility; -webkit-font-feature-settings: 'liga'; font-feature-settings: 'liga'; }
 
-@font-face { font-family: "Material-Design-Icons"; src: url("/fonts/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("/fonts/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("/fonts/material-design-icons/Material-Design-Icons.woff") format("woff"), url("/fonts/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("/fonts/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Material-Design-Icons"; src: url("/css/fonts/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("/css/fonts/material-design-icons/Material-Design-Icons.woff2") format("woff2"), url("/css/fonts/material-design-icons/Material-Design-Icons.woff") format("woff"), url("/css/fonts/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("/css/fonts/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg"); font-weight: normal; font-style: normal; }
 [class^="mdi-"], [class*="mdi-"] { speak: none; display: inline-block; font-family: "Material-Design-Icons"; font-style: normal; font-weight: normal; font-variant: normal; text-rendering: auto; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-transform: translate(0, 0); -ms-transform: translate(0, 0); transform: translate(0, 0); }
 [class^="mdi-"]:before, [class*="mdi-"]:before { display: inline-block; speak: none; text-decoration: inherit; }
 [class^="mdi-"].pull-left, [class*="mdi-"].pull-left { margin-right: .3em; }
@@ -3075,11 +3075,11 @@ nav .input-field label.active { -webkit-transform: translateY(0); -ms-transform:
 
 .navbar-fixed { position: relative; height: 56px; z-index: 998; }
 .navbar-fixed nav { position: fixed; }
-@font-face { font-family: "Roboto"; src: local(Roboto Thin), url("/fonts/roboto/Roboto-Thin.eot"); src: url("/fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("/fonts/roboto/Roboto-Thin.woff") format("woff"), url("/fonts/roboto/Roboto-Thin.ttf") format("truetype"); font-weight: 200; }
-@font-face { font-family: "Roboto"; src: local(Roboto Light), url("/fonts/roboto/Roboto-Light.eot"); src: url("/fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto/Roboto-Light.woff2") format("woff2"), url("/fonts/roboto/Roboto-Light.woff") format("woff"), url("/fonts/roboto/Roboto-Light.ttf") format("truetype"); font-weight: 300; }
-@font-face { font-family: "Roboto"; src: local(Roboto Regular), url("/fonts/roboto/Roboto-Regular.eot"); src: url("/fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("/fonts/roboto/Roboto-Regular.woff") format("woff"), url("/fonts/roboto/Roboto-Regular.ttf") format("truetype"); font-weight: 400; }
-@font-face { font-family: "Roboto"; src: url("/fonts/roboto/Roboto-Medium.eot"); src: url("/fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("/fonts/roboto/Roboto-Medium.woff") format("woff"), url("/fonts/roboto/Roboto-Medium.ttf") format("truetype"); font-weight: 500; }
-@font-face { font-family: "Roboto"; src: url("/fonts/roboto/Roboto-Bold.eot"); src: url("/fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("/fonts/roboto/Roboto-Bold.woff") format("woff"), url("/fonts/roboto/Roboto-Bold.ttf") format("truetype"); font-weight: 700; }
+@font-face { font-family: "Roboto"; src: local(Roboto Thin), url("/css/fonts/roboto/Roboto-Thin.eot"); src: url("/css/fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("/css/fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("/css/fonts/roboto/Roboto-Thin.woff") format("woff"), url("/css/fonts/roboto/Roboto-Thin.ttf") format("truetype"); font-weight: 200; }
+@font-face { font-family: "Roboto"; src: local(Roboto Light), url("/css/fonts/roboto/Roboto-Light.eot"); src: url("/css/fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("/css/fonts/roboto/Roboto-Light.woff2") format("woff2"), url("/css/fonts/roboto/Roboto-Light.woff") format("woff"), url("/css/fonts/roboto/Roboto-Light.ttf") format("truetype"); font-weight: 300; }
+@font-face { font-family: "Roboto"; src: local(Roboto Regular), url("/css/fonts/roboto/Roboto-Regular.eot"); src: url("/css/fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/css/fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("/css/fonts/roboto/Roboto-Regular.woff") format("woff"), url("/css/fonts/roboto/Roboto-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Roboto"; src: url("/css/fonts/roboto/Roboto-Medium.eot"); src: url("/css/fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("/css/fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("/css/fonts/roboto/Roboto-Medium.woff") format("woff"), url("/css/fonts/roboto/Roboto-Medium.ttf") format("truetype"); font-weight: 500; }
+@font-face { font-family: "Roboto"; src: url("/css/fonts/roboto/Roboto-Bold.eot"); src: url("/css/fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("/css/fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("/css/fonts/roboto/Roboto-Bold.woff") format("woff"), url("/css/fonts/roboto/Roboto-Bold.ttf") format("truetype"); font-weight: 700; }
 a { text-decoration: none; }
 
 html { line-height: 1.5; font-family: "Roboto", sans-serif; font-weight: normal; color: rgba(0, 0, 0, 0.87); }
@@ -3894,6 +3894,18 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 /** The picker box. */
 .picker--time .picker__box { font-size: 1em; background: #f2f2f2; padding: 0; }
+.icon-binar { width: 50px; height: 54px; background-image: url("../img/icons.png"); background-position: -142px 0px; }
+
+.icon-calendar { width: 58px; height: 53px; background-image: url("../img/icons.png"); background-position: 0px -59px; }
+
+.icon-codedby { width: 47px; height: 5px; background-image: url("../img/icons.png"); background-position: -142px -67px; }
+
+.icon-coderiver { width: 49px; height: 5px; background-image: url("../img/icons.png"); background-position: -142px -58px; }
+
+.icon-corona { width: 70px; height: 45px; background-image: url("../img/icons.png"); background-position: -68px 0px; }
+
+.icon-termin { width: 64px; height: 55px; background-image: url("../img/icons.png"); background-position: 0px 0px; }
+
 @font-face { font-family: "svgfont"; src: url("fonts/svgfont.eot"); src: url("fonts/svgfont.eot?#iefix") format("eot"), url("fonts/svgfont.woff") format("woff"), url("fonts/svgfont.woff2") format("woff2"), url("fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 .icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -3905,6 +3917,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @font-face { font-family: GothaProMed; src: url("fonts/GothamPro-Medium.eot"); src: url("fonts/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro-Medium.woff") format("woff"), url("fonts/GothamPro-Medium.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: GothamPro; src: url("fonts/GothamPro.eot"); src: url("fonts/GothamPro.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro.woff") format("woff"), url("fonts/GothamPro.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: GothamProBold; src: url("fonts/GothamPro-Bold.eot"); src: url("fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro-Bold.woff") format("woff"), url("fonts/GothamPro-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: GothamProLight; src: url("fonts/GothamPro-Light.eot"); src: url("fonts/GothamPro-Light.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro-Light.woff") format("woff"), url("fonts/GothamPro-Light.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
 .out { -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
@@ -3913,11 +3927,85 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .out .top__box { -webkit-box-shadow: none; box-shadow: none; height: 58px; line-height: 58px; background-color: #162737; }
 .out .top__box .phone span { position: relative; font-family: "GothamPro", sans-serif; color: #fff; font-size: 17px; font-weight: 400; line-height: 55px; display: inline-block; padding-left: 32px; }
 .out .top__box .phone span:before { content: ""; position: absolute; left: 0; top: 50%; margin-top: -10px; width: 20px; height: 20px; background: url("../img/phone.png") 0 0 no-repeat; }
+.out .top__box .language select { display: block; -webkit-border-radius: 0; border-radius: 0; border: none; background-color: #000000; padding: 20px 15px; height: 58px; }
+.out .top__box .language select:focus { outline: none; }
+.out .top__box .language select .rus { position: relative; width: 22px; height: 16px; display: inline-block; background: url("../img/rus.png") 0 0 no-repeat; }
+.out .top__box ul li a { font-size: 13px; font-weight: 500; font-family: "GothaProMed", sans-serif; padding: 0 25px; }
+.out .top__box ul .schet { background-image: -webkit-gradient(linear, left bottom, left top, from(#ff4242), to(#ff6642)); background-image: -webkit-linear-gradient(bottom, #ff4242 0%, #ff6642 100%); background-image: linear-gradient(to top, #ff4242 0%, #ff6642 100%); padding: 0 25px 0 50px; position: relative; }
+.out .top__box ul .schet:before { content: ""; position: absolute; top: 50%; margin-top: -8px; left: 25px; width: 16px; height: 16px; background: url("../img/user_male.png") 0 0 no-repeat; }
+.out .top__box ul .schet:hover { background-image: -webkit-gradient(linear, left bottom, left top, from(#2699d6), to(#3bbbff)); background-image: -webkit-linear-gradient(bottom, #2699d6 0%, #3bbbff 100%); background-image: linear-gradient(to top, #2699d6 0%, #3bbbff 100%); }
+.out .top__box ul .terminal { position: relative; }
+.out .top__box ul .terminal:before { content: ""; position: absolute; top: 50%; margin-top: -8px; left: 0; width: 16px; height: 15px; background: url("../img/vector.png") 0 0 no-repeat; }
+.out .top__box ul .terminal:hover { color: #ccff7b; }
+.out .top__box ul .terminal:hover:before { display: none; }
+.out .top__box ul .terminal:hover:after { content: ""; position: absolute; top: 50%; margin-top: -8px; left: 0; width: 16px; height: 15px; background: url("../img/vector_hov.png") 0 0 no-repeat; }
 .out .header .container { height: 100px; line-height: 100px; }
 .out .header .container .valign-wrapper { height: 100px; width: 100%; }
 .out .header .container nav { width: 82%; float: right; background-color: transparent; -webkit-box-shadow: none; box-shadow: none; height: 100px; line-height: 100px; }
 .out .header .container nav li a { color: #202020; text-transform: uppercase; font-family: "GothaProMed", sans-serif; font-size: 14px; font-weight: 500; padding: 0 22px; }
 .out .header .container nav li a:hover { background-color: transparent; color: #ff503a; }
+.out .baner { width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; background: url("../img/baner.png") 0 0 no-repeat; }
+.out .baner:after { content: " "; display: table; clear: both; }
+.out .baner .inner { padding: 50px 111px 41px 70px; }
+.out .baner .inner .h2 { font-family: "GothamProBold", sans-serif; font-size: 30px; font-weight: 700; line-height: 36px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35); color: white; margin-bottom: 45px; }
+.out .baner .inner .l9 { float: none; margin: 0 auto; }
+.out .baner .inner .l9 .l4 { color: white; font-family: "GothaProMed", sans-serif; font-size: 15px; font-weight: 500; line-height: 21px; }
+.out .baner .inner .l9 .l4 .image { height: 94px; margin-bottom: 10px; }
+.out .baner .inner .l9 .l4 .center-align { width: 100%; }
+.out .baner .inner .button { width: 304px; height: 80px; margin: 0 auto; background: rgba(0, 0, 0, 0.5); -webkit-border-radius: 40px; border-radius: 40px; }
+.out .baner .inner .button a { display: inline-block; width: 286px; height: 62px; background-color: black; background-image: -webkit-gradient(linear, left bottom, left top, from(#ff4242), to(#ff6642)); background-image: -webkit-linear-gradient(bottom, #ff4242 0%, #ff6642 100%); background-image: linear-gradient(to top, #ff4242 0%, #ff6642 100%); -webkit-border-radius: 31px; border-radius: 31px; color: white; font-family: "GothamProBold", sans-serif; font-size: 17px; font-weight: 700; line-height: 59px; margin: 8px auto; }
+.out .baner .inner .button a:hover { background-color: black; background-image: -webkit-gradient(linear, left bottom, left top, from(#2699d6), to(#3bbbff)); background-image: -webkit-linear-gradient(bottom, #2699d6 0%, #3bbbff 100%); background-image: linear-gradient(to top, #2699d6 0%, #3bbbff 100%); }
+.out .categories { border-bottom: 1px solid #d9e1f1; }
+.out .categories .row { margin-bottom: 0; }
+.out .categories .row .l3 { border-left: 1px solid #d9e1f1; }
+.out .categories .row .l3:last-child { border-right: 1px solid #d9e1f1; }
+.out .categories .row .l3:hover { background: #f4f6fb; }
+.out .categories .row .l3 .box { display: inline-block; padding: 23px 10px 15px; height: 115px; }
+.out .categories .row .l3 .box:hover .content .text .name { color: #ff4742; text-decoration: underline; }
+.out .categories .row .l3 .box .content { position: relative; }
+.out .categories .row .l3 .box .content .text { padding-left: 70px; }
+.out .categories .row .l3 .box .content .text .name { font-family: "GothamProBold", sans-serif; font-size: 13px; font-weight: 700; line-height: 21px; color: #000; }
+.out .categories .row .l3 .box .content .text p { font-family: "Roboto", sans-serif; font-size: 11px; font-weight: 400; line-height: 17px; color: #000; }
+.out .categories .row .l3 .box .content [class^="icon-"] { position: absolute; left: 0; top: 5px; }
+.out .categories .row .l3 .box .content .icon-calendar { left: -5px; }
+.out .categories .row .l3 .box .content .icon-corona { left: -8px; }
+.out .categories .row .l3 .box .content .icon-termin { left: -5px; }
+.out .experts { width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
+.out .experts:after { content: " "; display: table; clear: both; }
+.out .experts .container { padding: 40px 0 4px; }
+.out .experts .container .row { margin-bottom: 0; }
+.out .experts .container .name { color: black; font-family: "GothamProBold", sans-serif; font-size: 24px; font-weight: 700; line-height: 23px; }
+.out .experts .container p { color: #090909; font-family: "Roboto", sans-serif; font-size: 13px; font-weight: 400; line-height: 24px; }
+.out .experts .container .numb { color: #ff4742; font-size: 33px; font-weight: 300; line-height: 23px; font-family: "GothaProMed", sans-serif; margin-bottom: 15px; }
+.out .experts .container span { color: #090909; font-family: "Roboto", sans-serif; font-size: 13px; font-weight: 500; line-height: 17px; }
+.out .experts .container .l4 { height: 72px; margin-bottom: 50px; }
+.out .news { background: #f6f6f6; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
+.out .news:after { content: " "; display: table; clear: both; }
+.out .news .slider .indicators { top: 40px; right: 40px; z-index: 2; left: auto; bottom: auto; }
+.out .news .slider .indicators .indicator-item { width: 12px; height: 12px; border: 2px solid white; background-color: transparent; margin: 0 3px; }
+.out .news .slider .indicators .indicator-item.active { background-color: #ccff7b; border: 2px solid transparent; }
+.out .news .slider .caption { top: 40%; left: 5%; width: 80%; }
+.out .news .slider .caption h3 { font-size: 80px; font-family: "GothamProLight", sans-serif; font-weight: 300; }
+.out .news .slider .caption h5 { font-family: "GothamProBold", sans-serif; font-size: 21px; font-weight: 700; line-height: 30px; text-decoration: underline; }
+.out .news .row { margin-bottom: 0; }
+.out .news .news__list { padding: 35px 10px 0 10px; }
+.out .news .news__list .heading { color: black; font-family: "GothamProBold", sans-serif; font-size: 24px; font-weight: 700; line-height: 23px; margin-bottom: 35px; }
+.out .news .news__list .heading a { color: #007bd9; font-family: "GothaProMed", sans-serif; font-size: 13px; font-weight: 500; line-height: 32px; text-decoration: underline; text-transform: uppercase; position: relative; }
+.out .news .news__list .list .date { color: #585858; font-size: 13px; line-height: 25px; font-family: "Roboto", sans-serif; font-weight: 400; }
+.out .news .news__list .list .name a { color: #007bd9; font-size: 15px; line-height: 25px; text-decoration: underline; font-family: "Roboto", sans-serif; font-weight: 400; }
+.out .news .news__list .list .preview p { color: black; font-size: 13px; line-height: 21px; font-family: "Roboto", sans-serif; font-weight: 400; margin: 0 auto; }
+.out .news .news__list .list .row { margin-bottom: 30px; }
+.out .webtrader { width: 100%; background: url("../img/webtrader.png") 0 0 no-repeat; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
+.out .webtrader:after { content: " "; display: table; clear: both; }
+.out .webtrader .container { padding: 35px 0 0 0; }
+.out .webtrader .container .row { margin-bottom: 0; }
+.out .webtrader .container .h2 { font-weight: 400; font-size: 26px; line-height: 30px; font-family: "GothamProBold", sans-serif; color: #fff; }
+.out .webtrader .container p { font-size: 15px; line-height: 23px; color: #fff; font-family: "GothaProMed", sans-serif; font-weight: 400; }
+.out .webtrader .container .white { color: #363636; font-family: "GothamProBold", sans-serif; font-size: 17px; font-weight: 700; text-transform: initial; height: 58px; line-height: 58px; padding: 0 1.8rem; -webkit-border-radius: 3px; border-radius: 3px; margin-right: 20px; }
+.out .webtrader .container .white:hover { background-color: #ccff7b !important; }
+.out .webtrader .container .transparent { font-family: "GothamProBold", sans-serif; font-size: 17px; font-weight: 700; text-transform: initial; height: 58px; line-height: 56px; padding: 0 1.8rem; border: 2px solid white; -webkit-border-radius: 3px; border-radius: 3px; }
+.out .webtrader .container .l8 img { vertical-align: bottom; }
+.out .webtrader .container .l4 p { color: white; font-family: "GothamPro", sans-serif; font-size: 20px; font-weight: 400; line-height: 25px; }
 @media only screen and (min-width: 601px) and (max-width: 992px){
  #toast-container{ left: 5%; bottom: 7%; max-width: 90%; }
  .toast{ float: left; } }

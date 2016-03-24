@@ -1,5 +1,5 @@
-$(document).ready(function() {
-
-	// go js
-
-});
+ $(document).ready(function(){
+      $('.slider').slider({
+      	height: 340
+      });
+    });
